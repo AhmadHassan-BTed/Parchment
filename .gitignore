@@ -1,4 +1,10 @@
+# Built objects
+*.pyc
+*.class
+
+# Android Studio / IntelliJ
 *.iml
+.idea
 .gradle
 /local.properties
 /.idea/caches
@@ -7,9 +13,41 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+/.idea/runConfigurations.xml
+/.idea/gradle.xml
+
+# Build folders
+build/
+app/build/
+
+# Gradle
+.gradle/
+build/
+
+# Local configuration file (SDK path, etc)
 local.properties
+
+# Log Files
+*.log
+
+# Android Studio captures
+/captures
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# NDK
+.externalNativeBuild
+.cxx/
+
+# Secrets
+google-services.json
+
+# Keystore files
+*.jks
+*.keystore
+
+# Backup files
+*.bak
+*.swp
