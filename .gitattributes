@@ -1,0 +1,49 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Parchment — .gitattributes
+# Ensures consistent line endings, diff behavior, and merge strategies
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Default: auto-detect text files and normalize line endings
+* text=auto eol=lf
+
+# ── Source code ──────────────────────────────────────────────────────────────
+*.kt        text diff=kotlin
+*.kts       text diff=kotlin
+*.java      text diff=java
+*.xml       text
+*.json      text
+*.toml      text
+*.properties text
+*.pro       text
+*.md        text diff=markdown
+*.yml       text
+*.yaml      text
+
+# ── Shell scripts ────────────────────────────────────────────────────────────
+*.sh        text eol=lf
+*.bash      text eol=lf
+gradlew     text eol=lf
+
+# ── Windows-specific ─────────────────────────────────────────────────────────
+*.bat       text eol=crlf
+*.cmd       text eol=crlf
+
+# ── Binary files (do NOT normalize) ──────────────────────────────────────────
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.webp      binary
+*.ico       binary
+*.pdf       binary
+*.jar       binary
+*.jks       binary
+*.keystore  binary
+*.apk       binary
+*.aab       binary
+
+# ── Gradle wrapper JAR — always track as binary ─────────────────────────────
+gradle/wrapper/gradle-wrapper.jar binary
+
+# ── Lock files — merge ours ──────────────────────────────────────────────────
+gradle.lockfile merge=ours

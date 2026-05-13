@@ -1,0 +1,41 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Parchment — .editorconfig
+# Consistent coding style across all editors and IDEs
+# https://editorconfig.org
+# ──────────────────────────────────────────────────────────────────────────────
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 120
+
+[*.{kt,kts}]
+indent_size = 4
+
+[*.{xml,json,toml}]
+indent_size = 4
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
+[*.{bat,cmd}]
+end_of_line = crlf
+
+[gradlew]
+end_of_line = lf
+
+[*.pro]
+indent_size = 4
+
+[Makefile]
+indent_style = tab

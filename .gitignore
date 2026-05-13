@@ -1,53 +1,80 @@
-# Built objects
-*.pyc
-*.class
+# ──────────────────────────────────────────────────────────────────────────────
+# Parchment — .gitignore
+# Production-grade ignore rules for Android / Kotlin / Gradle projects
+# ──────────────────────────────────────────────────────────────────────────────
 
-# Android Studio / IntelliJ
-*.iml
-.idea
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-/.idea/runConfigurations.xml
-/.idea/gradle.xml
-
-# Build folders
+# ── Build outputs ────────────────────────────────────────────────────────────
 build/
 app/build/
+*.apk
+*.aab
+*.ap_
+*.dex
 
-# Gradle
+# ── Gradle ───────────────────────────────────────────────────────────────────
 .gradle/
-build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
 
-# Local configuration file (SDK path, etc)
-local.properties
-
-# Log Files
-*.log
-
-# Android Studio captures
-/captures
-
-# OS Files
-.DS_Store
-Thumbs.db
-
-# NDK
-.externalNativeBuild
+# ── IDE — Android Studio / IntelliJ IDEA ─────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+captures/
+.externalNativeBuild/
 .cxx/
 
-# Secrets
-google-services.json
+# ── Kotlin ───────────────────────────────────────────────────────────────────
+.kotlin/
 
-# Keystore files
+# ── Local configuration ─────────────────────────────────────────────────────
+local.properties
+
+# ── Secrets & credentials (NEVER commit these) ───────────────────────────────
 *.jks
 *.keystore
+*.p12
+*.pem
+*.key
+google-services.json
+firebase-*.json
+.env
+.env.*
+!.env.example
 
-# Backup files
-*.bak
+# ── OS-specific ──────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+build_log*.txt
+
+# ── Editor swap / backup files ───────────────────────────────────────────────
 *.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# ── Coverage / analysis reports ──────────────────────────────────────────────
+coverage/
+*.exec
+*.ec
+
+# ── Compiled outputs ────────────────────────────────────────────────────────
+*.class
+*.pyc
+*.pyo
+
+# ── Release artifacts (use GitHub Releases instead) ──────────────────────────
+app/release/
