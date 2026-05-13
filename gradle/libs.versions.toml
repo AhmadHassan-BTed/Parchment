@@ -6,7 +6,7 @@ junit = "4.13.2"
 junitVersion = "1.3.0"
 espressoCore = "3.7.0"
 lifecycleRuntimeKtx = "2.10.0"
-activityCompose = "1.12.2"
+activityCompose = "1.13.0"
 composeBom = "2024.09.00"
 
 [libraries]
