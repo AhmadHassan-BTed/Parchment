@@ -1,4 +1,4 @@
-package com.example.pdfreader.ui
+package ted.parchment.reader.ui
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -46,7 +46,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.pdfreader.utils.PdfUtils
+import ted.parchment.reader.utils.PdfUtils
 import kotlinx.coroutines.*
 import java.io.IOException
 

@@ -1,4 +1,4 @@
-package com.example.pdfreader.ui.theme
+package ted.parchment.reader.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun PDFReaderTheme(
+fun ParchmentTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

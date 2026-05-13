@@ -1,4 +1,4 @@
-package com.example.pdfreader.utils
+package ted.parchment.reader.utils
 
 import android.content.Context
 import android.graphics.Bitmap

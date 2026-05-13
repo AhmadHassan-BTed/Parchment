@@ -1,4 +1,4 @@
-package com.example.pdfreader.data
+package ted.parchment.reader.data
 
 /**
  * Data class representing a PDF File.

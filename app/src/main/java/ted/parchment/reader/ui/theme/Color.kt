@@ -1,4 +1,4 @@
-package com.example.pdfreader.ui.theme
+package ted.parchment.reader.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

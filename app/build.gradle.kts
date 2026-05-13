@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pdfreader"
+    namespace = "ted.parchment.reader"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.pdfreader"
+        applicationId = "ted.parchment.reader"
         minSdk = 28
         targetSdk = 36
         versionCode = 1

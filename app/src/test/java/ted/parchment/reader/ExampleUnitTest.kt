@@ -1,4 +1,4 @@
-package com.example.pdfreader
+package ted.parchment.reader
 
 import org.junit.Test
 
