@@ -1,13 +1,14 @@
 <div align="center">
 
 # 📜 Parchment
+
 ### A Soulful PDF Reading Experience for Android
 
 [![CI](https://github.com/AhmadHassan-BTed/PDF-Reader/actions/workflows/ci.yml/badge.svg)](https://github.com/AhmadHassan-BTed/PDF-Reader/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Android](https://img.shields.io/badge/Android-9.0%2B-green.svg)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0-purple.svg)](https://kotlinlang.org)
-[![Maintainer](https://img.shields.io/badge/Maintainer-Ahmad%20Hassan%20(B--Ted)-8B6914)](https://github.com/AhmadHassan-BTed)
+[![Maintainer](<https://img.shields.io/badge/Maintainer-Ahmad%20Hassan%20(B--Ted)-8B6914>)](https://github.com/AhmadHassan-BTed)
 
 ---
 
@@ -22,20 +23,21 @@ It brings the warmth of physical paper to the precision of modern Android engine
 ---
 
 ## 📖 The Vision
+
 Digital PDF readers often feel cold and industrial. **Parchment**, envisioned and engineered by **Ahmad Hassan (B-Ted)**, prioritizes the human element. By utilizing a "Warm Paper" design system and a gesture-driven interface, it replicates the focused, undistracted environment of a physical library.
 
 ---
 
 ## 🛠️ Feature Ecosystem
 
-| Feature | Technical Implementation | Human Value |
-|:---|:---|:---|
-| **Warm Aesthetic** | Custom HSL-tailored Design System | Reduces digital eye strain |
-| **Parchment Engine** | Android `PdfRenderer` + 2× Super-sampling | Keeps text crisp at any zoom level |
-| **Bilingual TOC** | Multi-script `TocItem` Model | Seamless support for English & Urdu/Arabic |
-| **Smart HUD** | Auto-hiding gesture-aware UI | Maximum immersion, zero clutter |
-| **Fluid Navigation** | `LazyColumn` + Haptic Feedback loops | Tactile sense of progress |
-| **Persistence** | Synchronized `SharedPreferences` layer | Never lose your place in a text |
+| Feature              | Technical Implementation                  | Human Value                                |
+| :------------------- | :---------------------------------------- | :----------------------------------------- |
+| **Warm Aesthetic**   | Custom HSL-tailored Design System         | Reduces digital eye strain                 |
+| **Parchment Engine** | Android `PdfRenderer` + 2× Super-sampling | Keeps text crisp at any zoom level         |
+| **Bilingual TOC**    | Multi-script `TocItem` Model              | Seamless support for English & Urdu/Arabic |
+| **Smart HUD**        | Auto-hiding gesture-aware UI              | Maximum immersion, zero clutter            |
+| **Fluid Navigation** | `LazyColumn` + Haptic Feedback loops      | Tactile sense of progress                  |
+| **Persistence**      | Synchronized `SharedPreferences` layer    | Never lose your place in a text            |
 
 ---
 
@@ -73,6 +75,7 @@ graph TD
 When a reader opens a book, the following lifecycle is executed to ensure a sub-100ms "Time to First Page."
 
 ### Page Rendering Lifecycle
+
 ```mermaid
 sequenceDiagram
     participant U as User
@@ -122,6 +125,7 @@ root/
 ## ⚙️ Technical Pipeline
 
 ### Build & Deployment
+
 The project utilizes a professional GitHub Actions pipeline for every commit to ensure structural integrity.
 
 ```mermaid
@@ -147,21 +151,21 @@ New contributions are welcomed. The repository is maintained with a high bar for
 - **JDK:** 17
 - **SDK:** 36 (target), 28 (min)
 - **Commands:**
-  ```bash
-  ./gradlew assembleDebug  # Build
-  ./gradlew test           # Verify
-  ```
-</details>
+    ```bash
+    ./gradlew assembleDebug  # Build
+    ./gradlew test           # Verify
+    ```
+    </details>
 
 <details>
 <summary><b>2. Module Relationship Guide</b></summary>
 
-| Module | Responsibility |
-|:---|:---|
-| `PdfViewerScreen` | Orchestrates navigation and HUD states |
-| `VerticalZoomBar` | Custom Canvas-based scaling controller |
+| Module            | Responsibility                                 |
+| :---------------- | :--------------------------------------------- |
+| `PdfViewerScreen` | Orchestrates navigation and HUD states         |
+| `VerticalZoomBar` | Custom Canvas-based scaling controller         |
 | `PdfPageRenderer` | Native-to-Bitmap bridge with memory management |
-| `BookRepository` | Single source of truth for all book metadata |
+| `BookRepository`  | Single source of truth for all book metadata   |
 
 </details>
 
@@ -171,6 +175,7 @@ New contributions are welcomed. The repository is maintained with a high bar for
 
 **Parchment** is an original work by **Ahmad Hassan (B-Ted)**.  
 It is built with a commitment to privacy:
+
 - **Zero Network Calls:** Your reading habits stay on your device.
 - **Zero Analytics:** No tracking, no telemetry.
 - **Open Source:** Licensed under Apache 2.0.
