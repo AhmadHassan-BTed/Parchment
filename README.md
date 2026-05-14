@@ -34,7 +34,7 @@ Digital PDF readers often feel cold and industrial. **Parchment**, envisioned an
 | :------------------- | :---------------------------------------- | :----------------------------------------- |
 | **Warm Aesthetic**   | Custom HSL-tailored Design System         | Reduces digital eye strain                 |
 | **Parchment Engine** | Android `PdfRenderer` + 2× Super-sampling | Keeps text crisp at any zoom level         |
-| **Bilingual TOC**    | Multi-script `TocItem` Model              | Seamless support for English & Urdu/Arabic |
+| **Interactive TOC**  | Flexible `TocItem` Model                  | Quick, outline-based navigation            |
 | **Smart HUD**        | Auto-hiding gesture-aware UI              | Maximum immersion, zero clutter            |
 | **Fluid Navigation** | `LazyColumn` + Haptic Feedback loops      | Tactile sense of progress                  |
 | **Persistence**      | Synchronized `SharedPreferences` layer    | Never lose your place in a text            |
