@@ -6,7 +6,7 @@ labels: enhancement
 assignees: ''
 ---
 
-## 🚀 Feature Description
+##  Feature Description
 
 A clear and concise description of the feature you'd like.
 

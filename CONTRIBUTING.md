@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to Parchment! This guide will help you get started.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
 - [Getting Started](#getting-started)
@@ -145,4 +145,4 @@ refactor(theme): consolidate color tokens
 
 ---
 
-Thank you for contributing! 🎉
+Thank you for contributing! 

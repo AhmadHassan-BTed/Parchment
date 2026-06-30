@@ -1,10 +1,10 @@
 # Roadmap
 
-## 🎯 Vision
+##  Vision
 
 Parchment aims to be the most refined, offline-first PDF reading experience on Android — purpose-built for religious and scholarly texts with bilingual support.
 
-## 📅 Planned Milestones
+##  Planned Milestones
 
 ### v1.1 — Enhanced Reader Experience
 - [ ] Text search within PDF
@@ -38,6 +38,6 @@ Parchment aims to be the most refined, offline-first PDF reading experience on A
 - [ ] Cloud sync for bookmarks
 - [ ] Widget for daily reading reminders
 
-## 💡 Contributing Ideas
+##  Contributing Ideas
 
 Have a feature request? [Open an issue](../../issues/new?template=feature_request.md) and let's discuss it!

@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📜 Parchment
+#  Parchment
 
 ### A Soulful PDF Reading Experience for Android
 
@@ -22,13 +22,13 @@ It brings the warmth of physical paper to the precision of modern Android engine
 
 ---
 
-## 📖 The Vision
+##  The Vision
 
 Digital PDF readers often feel cold and industrial. **Parchment**, envisioned and engineered by **Ahmad Hassan (B-Ted)**, prioritizes the human element. By utilizing a "Warm Paper" design system and a gesture-driven interface, it replicates the focused, undistracted environment of a physical library.
 
 ---
 
-## 🛠️ Feature Ecosystem
+##  Feature Ecosystem
 
 | Feature              | Technical Implementation                  | Human Value                                |
 | :------------------- | :---------------------------------------- | :----------------------------------------- |
@@ -41,7 +41,7 @@ Digital PDF readers often feel cold and industrial. **Parchment**, envisioned an
 
 ---
 
-## 🏛️ Architecture Overview
+##  Architecture Overview
 
 The system is built on a strict **Modular Layered Architecture**. This ensures 100% cohesion and zero coupling between the rendering engine and the data source.
 
@@ -70,7 +70,7 @@ graph TD
 
 ---
 
-## 🔄 Request & Data Flow
+##  Request & Data Flow
 
 When a reader opens a book, the following lifecycle is executed to ensure a sub-100ms "Time to First Page."
 
@@ -100,7 +100,7 @@ sequenceDiagram
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 The project is structured to favor **feature-first discovery**. Contributors can locate logic within seconds.
 
@@ -122,7 +122,7 @@ root/
 
 ---
 
-## ⚙️ Technical Pipeline
+##  Technical Pipeline
 
 ### Build & Deployment
 
@@ -140,7 +140,7 @@ graph LR
 
 ---
 
-## 🤝 Development Workflow
+##  Development Workflow
 
 New contributions are welcomed. The repository is maintained with a high bar for engineering standards.
 
@@ -171,7 +171,7 @@ New contributions are welcomed. The repository is maintained with a high bar for
 
 ---
 
-## 📜 Acknowledgments & Ethics
+##  Acknowledgments & Ethics
 
 **Parchment** is an original work by **Ahmad Hassan (B-Ted)**.  
 It is built with a commitment to privacy:

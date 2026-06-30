@@ -6,12 +6,12 @@ Fixes #
 
 ## Type of Change
 
-- [ ] 🐛 Bug fix (non-breaking change that fixes an issue)
-- [ ] ✨ New feature (non-breaking change that adds functionality)
-- [ ] 💥 Breaking change (fix or feature that would cause existing functionality to change)
-- [ ] 📝 Documentation update
-- [ ] ♻️ Refactoring (no functional changes)
-- [ ] 🔧 Configuration / CI change
+- [ ]  Bug fix (non-breaking change that fixes an issue)
+- [ ]  New feature (non-breaking change that adds functionality)
+- [ ]  Breaking change (fix or feature that would cause existing functionality to change)
+- [ ]  Documentation update
+- [ ]  Refactoring (no functional changes)
+- [ ]  Configuration / CI change
 
 ## Changes Made
 
